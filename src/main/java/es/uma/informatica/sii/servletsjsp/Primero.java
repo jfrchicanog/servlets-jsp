@@ -34,9 +34,7 @@ public class Primero extends HttpServlet {
         
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        out.println("<!DOCTYPE HTML "
-                + "PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n"
-                + "\"http://www.w3.org/TR/html4/loose.dtd\">");
+        out.println("<!DOCTYPE html>");
         out.println("<html>");
         out.println("<head>");
         out.println("<title>Hola mundo</title>");
